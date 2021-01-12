@@ -1,0 +1,7 @@
+//items
+
+//blocks
+tile.ore_phrax.name=Phrax Ore
+tile.ore_crystal_phrax.name=Phrax Crystal
+tile.block_wire.name=Wire
+tile.block_machine_base.name=Machine Base

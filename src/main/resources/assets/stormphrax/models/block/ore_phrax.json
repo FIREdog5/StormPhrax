@@ -1,0 +1,12 @@
+{
+	"parent": "block/cube",
+    "textures": {
+        "down": "stormphrax:blocks/block_phrax_ore_top",
+        "up": "stormphrax:blocks/block_phrax_ore_top",
+        "north": "stormphrax:blocks/block_phrax_ore_side",
+        "east": "stormphrax:blocks/block_phrax_ore_side",
+        "south": "stormphrax:blocks/block_phrax_ore_side",
+        "west": "stormphrax:blocks/block_phrax_ore_side",
+        "particle": "stormphrax:blocks/block_phrax_ore_side"
+    }
+}
