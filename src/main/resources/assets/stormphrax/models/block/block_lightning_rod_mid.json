@@ -44,7 +44,8 @@
                 "north": { "texture": "#lightning_rod", "uv": [ 0, 12, 12, 14 ], "rotation": 90 },
                 "east": { "texture": "#lightning_rod", "uv": [ 0, 12, 12, 14 ], "rotation": 90 },
                 "south": { "texture": "#lightning_rod", "uv": [ 0, 12, 12, 14 ], "rotation": 90 },
-                "west": { "texture": "#lightning_rod", "uv": [ 0, 12, 12, 14 ], "rotation": 90 }
+                "west": { "texture": "#lightning_rod", "uv": [ 0, 12, 12, 14 ], "rotation": 90 },
+                "down": { "texture": "#lightning_rod", "uv": [ 3, 7, 5, 9 ] }
             }
         }
     ]
