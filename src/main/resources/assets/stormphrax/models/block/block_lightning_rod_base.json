@@ -1,0 +1,227 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "lightning_rod": "stormphrax:blocks/lightning_rod",
+        "lightning_rod_misc": "stormphrax:blocks/lightning_rod_misc"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "Base",
+            "from": [ 4, 0, 4 ], 
+            "to": [ 12, 4, 12 ], 
+            "faces": {
+                "north": { "texture": "#lightning_rod", "uv": [ 0, 0, 8, 4 ] },
+                "east": { "texture": "#lightning_rod", "uv": [ 0, 0, 8, 4 ] },
+                "south": { "texture": "#lightning_rod", "uv": [ 0, 0, 8, 4 ] },
+                "west": { "texture": "#lightning_rod", "uv": [ 0, 0, 8, 4 ] },
+                "up": { "texture": "#lightning_rod", "uv": [ 0, 4, 8, 12 ] },
+                "down": { "texture": "#lightning_rod", "uv": [ 8, 4, 16, 12 ] }
+            }
+        },
+        {
+            "name": "Rod",
+            "from": [ 7, 4, 7 ], 
+            "to": [ 9, 16, 9 ], 
+            "faces": {
+                "north": { "texture": "#lightning_rod", "uv": [ 0, 12, 12, 14 ], "rotation": 90 },
+                "east": { "texture": "#lightning_rod", "uv": [ 0, 12, 12, 14 ], "rotation": 90 },
+                "south": { "texture": "#lightning_rod", "uv": [ 0, 12, 12, 14 ], "rotation": 90 },
+                "west": { "texture": "#lightning_rod", "uv": [ 0, 12, 12, 14 ], "rotation": 90 }
+            }
+        },
+        {
+            "name": "RingN1",
+            "from": [ 5, 5, 5 ], 
+            "to": [ 11, 6, 6 ], 
+            "faces": {
+                "north": { "texture": "#lightning_rod", "uv": [ 8, 0, 14, 1 ] },
+                "east": { "texture": "#lightning_rod", "uv": [ 13, 0, 14, 1 ] },
+                "south": { "texture": "#lightning_rod", "uv": [ 8, 0, 14, 1 ] },
+                "west": { "texture": "#lightning_rod", "uv": [ 8, 0, 9, 1 ] },
+                "up": { "texture": "#lightning_rod", "uv": [ 8, 0, 14, 1 ] },
+                "down": { "texture": "#lightning_rod", "uv": [ 8, 0, 14, 1 ] }
+            }
+        },
+        {
+            "name": "RingS1",
+            "from": [ 5, 5, 10 ], 
+            "to": [ 11, 6, 11 ], 
+            "faces": {
+                "north": { "texture": "#lightning_rod", "uv": [ 8, 0, 14, 1 ] },
+                "east": { "texture": "#lightning_rod", "uv": [ 8, 0, 9, 1 ] },
+                "south": { "texture": "#lightning_rod", "uv": [ 8, 0, 14, 1 ] },
+                "west": { "texture": "#lightning_rod", "uv": [ 13, 0, 14, 1 ] },
+                "up": { "texture": "#lightning_rod", "uv": [ 8, 0, 14, 1 ] },
+                "down": { "texture": "#lightning_rod", "uv": [ 8, 0, 14, 1 ] }
+            }
+        },
+        {
+            "name": "RingW1",
+            "from": [ 5, 5, 6 ], 
+            "to": [ 6, 6, 10 ], 
+            "faces": {
+                "east": { "texture": "#lightning_rod", "uv": [ 9, 0, 13, 1 ] },
+                "west": { "texture": "#lightning_rod", "uv": [ 9, 0, 13, 1 ] },
+                "up": { "texture": "#lightning_rod", "uv": [ 9, 0, 13, 1 ], "rotation": 90 },
+                "down": { "texture": "#lightning_rod", "uv": [ 9, 0, 13, 1 ], "rotation": 90 }
+            }
+        },
+        {
+            "name": "RingE1",
+            "from": [ 10, 5, 6 ], 
+            "to": [ 11, 6, 10 ], 
+            "faces": {
+                "east": { "texture": "#lightning_rod", "uv": [ 9, 0, 13, 1 ] },
+                "west": { "texture": "#lightning_rod", "uv": [ 9, 0, 13, 1 ] },
+                "up": { "texture": "#lightning_rod", "uv": [ 9, 0, 13, 1 ], "rotation": 90 },
+                "down": { "texture": "#lightning_rod", "uv": [ 9, 0, 13, 1 ], "rotation": 90 }
+            }
+        },
+        {
+            "name": "RingN2",
+            "from": [ 5, 7, 5 ], 
+            "to": [ 11, 8, 6 ], 
+            "faces": {
+                "north": { "texture": "#lightning_rod", "uv": [ 8, 0, 14, 1 ] },
+                "east": { "texture": "#lightning_rod", "uv": [ 13, 0, 14, 1 ] },
+                "south": { "texture": "#lightning_rod", "uv": [ 8, 0, 14, 1 ] },
+                "west": { "texture": "#lightning_rod", "uv": [ 8, 0, 9, 1 ] },
+                "up": { "texture": "#lightning_rod", "uv": [ 8, 0, 14, 1 ] },
+                "down": { "texture": "#lightning_rod", "uv": [ 8, 0, 14, 1 ] }
+            }
+        },
+        {
+            "name": "RingS2",
+            "from": [ 5, 7, 10 ], 
+            "to": [ 11, 8, 11 ], 
+            "faces": {
+                "north": { "texture": "#lightning_rod", "uv": [ 8, 0, 14, 1 ] },
+                "east": { "texture": "#lightning_rod", "uv": [ 8, 0, 9, 1 ] },
+                "south": { "texture": "#lightning_rod", "uv": [ 8, 0, 14, 1 ] },
+                "west": { "texture": "#lightning_rod", "uv": [ 13, 0, 14, 1 ] },
+                "up": { "texture": "#lightning_rod", "uv": [ 8, 0, 14, 1 ] },
+                "down": { "texture": "#lightning_rod", "uv": [ 8, 0, 14, 1 ] }
+            }
+        },
+        {
+            "name": "RingW2",
+            "from": [ 5, 7, 6 ], 
+            "to": [ 6, 8, 10 ], 
+            "faces": {
+                "east": { "texture": "#lightning_rod", "uv": [ 9, 0, 13, 1 ] },
+                "west": { "texture": "#lightning_rod", "uv": [ 9, 0, 13, 1 ] },
+                "up": { "texture": "#lightning_rod", "uv": [ 9, 0, 13, 1 ], "rotation": 90 },
+                "down": { "texture": "#lightning_rod", "uv": [ 9, 0, 13, 1 ], "rotation": 90 }
+            }
+        },
+        {
+            "name": "RingE2",
+            "from": [ 10, 7, 6 ], 
+            "to": [ 11, 8, 10 ], 
+            "faces": {
+                "east": { "texture": "#lightning_rod", "uv": [ 9, 0, 13, 1 ] },
+                "west": { "texture": "#lightning_rod", "uv": [ 9, 0, 13, 1 ] },
+                "up": { "texture": "#lightning_rod", "uv": [ 9, 0, 13, 1 ], "rotation": 90 },
+                "down": { "texture": "#lightning_rod", "uv": [ 9, 0, 13, 1 ], "rotation": 90 }
+            }
+        },
+        {
+            "name": "RingN3",
+            "from": [ 5, 9, 5 ], 
+            "to": [ 11, 10, 6 ], 
+            "faces": {
+                "north": { "texture": "#lightning_rod", "uv": [ 8, 0, 14, 1 ] },
+                "east": { "texture": "#lightning_rod", "uv": [ 13, 0, 14, 1 ] },
+                "south": { "texture": "#lightning_rod", "uv": [ 8, 0, 14, 1 ] },
+                "west": { "texture": "#lightning_rod", "uv": [ 8, 0, 9, 1 ] },
+                "up": { "texture": "#lightning_rod", "uv": [ 8, 0, 14, 1 ] },
+                "down": { "texture": "#lightning_rod", "uv": [ 8, 0, 14, 1 ] }
+            }
+        },
+        {
+            "name": "RingS3",
+            "from": [ 5, 9, 10 ], 
+            "to": [ 11, 10, 11 ], 
+            "faces": {
+                "north": { "texture": "#lightning_rod", "uv": [ 8, 0, 14, 1 ] },
+                "east": { "texture": "#lightning_rod", "uv": [ 8, 0, 9, 1 ] },
+                "south": { "texture": "#lightning_rod", "uv": [ 8, 0, 14, 1 ] },
+                "west": { "texture": "#lightning_rod", "uv": [ 13, 0, 14, 1 ] },
+                "up": { "texture": "#lightning_rod", "uv": [ 8, 0, 14, 1 ] },
+                "down": { "texture": "#lightning_rod", "uv": [ 8, 0, 14, 1 ] }
+            }
+        },
+        {
+            "name": "RingW3",
+            "from": [ 5, 9, 6 ], 
+            "to": [ 6, 10, 10 ], 
+            "faces": {
+                "east": { "texture": "#lightning_rod", "uv": [ 9, 0, 13, 1 ] },
+                "west": { "texture": "#lightning_rod", "uv": [ 9, 0, 13, 1 ] },
+                "up": { "texture": "#lightning_rod", "uv": [ 9, 0, 13, 1 ], "rotation": 90 },
+                "down": { "texture": "#lightning_rod", "uv": [ 9, 0, 13, 1 ], "rotation": 90 }
+            }
+        },
+        {
+            "name": "RingE3",
+            "from": [ 10, 9, 6 ], 
+            "to": [ 11, 10, 10 ], 
+            "faces": {
+                "east": { "texture": "#lightning_rod", "uv": [ 9, 0, 13, 1 ] },
+                "west": { "texture": "#lightning_rod", "uv": [ 9, 0, 13, 1 ] },
+                "up": { "texture": "#lightning_rod", "uv": [ 9, 0, 13, 1 ], "rotation": 90 },
+                "down": { "texture": "#lightning_rod", "uv": [ 9, 0, 13, 1 ], "rotation": 90 }
+            }
+        },
+        {
+            "name": "SupportsEW",
+            "from": [ 8, 4, 5 ], 
+            "to": [ 8, 10, 11 ], 
+            "faces": {
+                "east": { "texture": "#lightning_rod_misc", "uv": [ 0, 0, 6, 6 ] },
+                "west": { "texture": "#lightning_rod_misc", "uv": [ 0, 0, 6, 6 ] }
+            }
+        },
+        {
+            "name": "SupportsNW",
+            "from": [ 5, 4, 8 ], 
+            "to": [ 11, 10, 8 ], 
+            "faces": {
+                "north": { "texture": "#lightning_rod_misc", "uv": [ 0, 0, 6, 6 ] },
+                "south": { "texture": "#lightning_rod_misc", "uv": [ 0, 0, 6, 6 ] }
+            }
+        }
+    ]
+}

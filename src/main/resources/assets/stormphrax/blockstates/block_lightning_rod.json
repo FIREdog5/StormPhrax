@@ -1,0 +1,8 @@
+{
+    "multipart": [
+        {   "apply": { "model": "stormphrax:block_lightning_rod_mid" }},
+        {   "when": { "top": "true" },
+        	"apply": { "model": "stormphrax:block_lightning_rod_top" }
+        }
+    ]
+}

@@ -1,7 +1,7 @@
 {
     "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
     "textures": {
-        "wire": "stormphrax:blocks/wire"
+        "lightning_rod": "stormphrax:blocks/lightning_rod"
     },
     "display": {
         "gui": {
@@ -37,16 +37,14 @@
     },
     "elements": [
         {
-            "name": "WireN",
-            "from": [ 7, 7, 0 ], 
-            "to": [ 9, 9, 6 ], 
+            "name": "Rod",
+            "from": [ 7, 0, 7 ], 
+            "to": [ 9, 16, 9 ], 
             "faces": {
-                "north": { "texture": "#wire", "uv": [ 0, 4, 2, 6 ] },
-                "east": { "texture": "#wire", "uv": [ 4, 0, 6, 6 ], "rotation": 90 },
-                "south": { "texture": "#wire", "uv": [ 0, 4, 2, 6 ] },
-                "west": { "texture": "#wire", "uv": [ 4, 0, 6, 6 ], "rotation": 90 },
-                "up": { "texture": "#wire", "uv": [ 4, 0, 6, 6 ] },
-                "down": { "texture": "#wire", "uv": [ 4, 0, 6, 6 ] }
+                "north": { "texture": "#lightning_rod", "uv": [ 0, 12, 12, 14 ], "rotation": 90 },
+                "east": { "texture": "#lightning_rod", "uv": [ 0, 12, 12, 14 ], "rotation": 90 },
+                "south": { "texture": "#lightning_rod", "uv": [ 0, 12, 12, 14 ], "rotation": 90 },
+                "west": { "texture": "#lightning_rod", "uv": [ 0, 12, 12, 14 ], "rotation": 90 }
             }
         }
     ]

@@ -1,7 +1,7 @@
 {
     "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
     "textures": {
-        "wire": "stormphrax:blocks/wire"
+        "lightning_rod_misc": "stormphrax:blocks/lightning_rod_misc"
     },
     "display": {
         "gui": {
@@ -37,16 +37,16 @@
     },
     "elements": [
         {
-            "name": "WireN",
-            "from": [ 7, 7, 0 ], 
-            "to": [ 9, 9, 6 ], 
+            "name": "Top",
+            "from": [ 5, 10, 5 ], 
+            "to": [ 11, 16, 11 ], 
             "faces": {
-                "north": { "texture": "#wire", "uv": [ 0, 4, 2, 6 ] },
-                "east": { "texture": "#wire", "uv": [ 4, 0, 6, 6 ], "rotation": 90 },
-                "south": { "texture": "#wire", "uv": [ 0, 4, 2, 6 ] },
-                "west": { "texture": "#wire", "uv": [ 4, 0, 6, 6 ], "rotation": 90 },
-                "up": { "texture": "#wire", "uv": [ 4, 0, 6, 6 ] },
-                "down": { "texture": "#wire", "uv": [ 4, 0, 6, 6 ] }
+                "north": { "texture": "#lightning_rod_misc", "uv": [ 0, 6, 6, 12 ] },
+                "east": { "texture": "#lightning_rod_misc", "uv": [ 0, 6, 6, 12 ] },
+                "south": { "texture": "#lightning_rod_misc", "uv": [ 0, 6, 6, 12 ] },
+                "west": { "texture": "#lightning_rod_misc", "uv": [ 0, 6, 6, 12 ] },
+                "up": { "texture": "#lightning_rod_misc", "uv": [ 0, 6, 6, 12 ] },
+                "down": { "texture": "#lightning_rod_misc", "uv": [ 0, 6, 6, 12 ] }
             }
         }
     ]

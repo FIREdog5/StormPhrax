@@ -180,10 +180,10 @@
             "from": [ 7, 10, 7 ], 
             "to": [ 9, 13, 9 ], 
             "faces": {
-                "north": { "texture": "#wire", "uv": [ 10, 3, 12, 6 ] },
-                "east": { "texture": "#wire", "uv": [ 10, 3, 12, 6 ] },
-                "south": { "texture": "#wire", "uv": [ 10, 3, 12, 6 ] },
-                "west": { "texture": "#wire", "uv": [ 10, 3, 12, 6 ] }
+                "north": { "texture": "#wire", "uv": [ 4, 0, 6, 3 ] },
+                "east": { "texture": "#wire", "uv": [ 4, 0, 6, 3 ] },
+                "south": { "texture": "#wire", "uv": [ 4, 0, 6, 3 ] },
+                "west": { "texture": "#wire", "uv": [ 4, 0, 6, 3 ] }
             }
         }
     ]
