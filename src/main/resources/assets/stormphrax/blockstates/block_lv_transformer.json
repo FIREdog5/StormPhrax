@@ -1,0 +1,23 @@
+{
+    "multipart": [
+        {   "apply": { "model": "stormphrax:block_transformer" }},
+        {   "when": { "has_connection_u": "true" },
+            "apply": { "model": "stormphrax:wire_connector", "x":270 }
+        },
+        {   "when": { "has_connection_d": "true" },
+            "apply": { "model": "stormphrax:wire_connector", "x":90 }
+        },
+        {   "when": { "has_connection_e": "true" },
+            "apply": { "model": "stormphrax:wire_connector", "y":90 }
+        },
+        {   "when": { "has_connection_w": "true" },
+            "apply": { "model": "stormphrax:wire_connector", "y":270 }
+        },
+        {   "when": { "has_connection_n": "true" },
+            "apply": { "model": "stormphrax:wire_connector" }
+        },
+        {   "when": { "has_connection_s": "true" },
+            "apply": { "model": "stormphrax:wire_connector", "y":180 }
+        }
+    ]
+}
