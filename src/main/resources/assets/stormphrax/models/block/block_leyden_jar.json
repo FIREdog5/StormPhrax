@@ -1,0 +1,92 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "block_leyden_jar": "stormphrax:blocks/block_leyden_jar",
+        "wire": "stormphrax:blocks/wire",
+        "block_leyden_jar_top": "stormphrax:blocks/block_leyden_jar_top",
+        "block_leyden_jar_base": "stormphrax:blocks/block_leyden_jar_base"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "Base",
+            "from": [ 0, 0, 0 ], 
+            "to": [ 16, 1, 16 ], 
+            "faces": {
+                "north": { "texture": "#block_leyden_jar", "uv": [ 0, 13, 16, 14 ] },
+                "east": { "texture": "#block_leyden_jar", "uv": [ 0, 13, 16, 14 ] },
+                "south": { "texture": "#block_leyden_jar", "uv": [ 0, 13, 16, 14 ] },
+                "west": { "texture": "#block_leyden_jar", "uv": [ 0, 13, 16, 14 ] },
+                "up": { "texture": "#block_leyden_jar_base", "uv": [ 0, 0, 16, 16 ] },
+                "down": { "texture": "#block_leyden_jar_base", "uv": [ 0, 0, 16, 16 ] }
+            }
+        },
+        {
+            "name": "Core",
+            "from": [ 2, 1, 2 ], 
+            "to": [ 14, 2, 14 ], 
+            "faces": {
+                "north": { "texture": "#block_leyden_jar", "uv": [ 0, 12, 12, 13 ] },
+                "east": { "texture": "#block_leyden_jar", "uv": [ 0, 12, 12, 13 ] },
+                "south": { "texture": "#block_leyden_jar", "uv": [ 0, 12, 12, 13 ] },
+                "west": { "texture": "#block_leyden_jar", "uv": [ 0, 12, 12, 13 ] }
+            }
+        },
+        {
+            "name": "Shell",
+            "from": [ 1, 2, 1 ], 
+            "to": [ 15, 14, 15 ], 
+            "faces": {
+                "north": { "texture": "#block_leyden_jar", "uv": [ 0, 0, 14, 12 ] },
+                "east": { "texture": "#block_leyden_jar", "uv": [ 0, 0, 14, 12 ] },
+                "south": { "texture": "#block_leyden_jar", "uv": [ 0, 0, 14, 12 ] },
+                "west": { "texture": "#block_leyden_jar", "uv": [ 0, 0, 14, 12 ] },
+                "up": { "texture": "#block_leyden_jar_top", "uv": [ 0, 0, 14, 14 ] },
+                "down": { "texture": "#block_leyden_jar_top", "uv": [ 0, 0, 14, 14 ] }
+            }
+        },
+        {
+            "name": "Socket",
+            "from": [ 6, 14, 6 ], 
+            "to": [ 10, 16, 10 ], 
+            "faces": {
+                "north": { "texture": "#wire", "uv": [ 0, 0, 4, 2 ] },
+                "east": { "texture": "#wire", "uv": [ 0, 0, 4, 2 ] },
+                "south": { "texture": "#wire", "uv": [ 0, 0, 4, 2 ] },
+                "west": { "texture": "#wire", "uv": [ 0, 0, 4, 2 ] },
+                "up": { "texture": "#wire", "uv": [ 0, 0, 4, 4 ] }
+            }
+        }
+    ]
+}

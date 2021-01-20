@@ -1,5 +1,16 @@
 {
-	"variants": {
-		"normal": { "model": "stormphrax:block_phrax_oven" }
-	}
+	"multipart": [
+		{   "when": { "facing": "north" },
+	            "apply": { "model": "stormphrax:block_phrax_oven", "y":90 }
+	    },
+	    {   "when": { "facing": "south" },
+	            "apply": { "model": "stormphrax:block_phrax_oven", "y":270 }
+	    },
+	    {   "when": { "facing": "east" },
+	            "apply": { "model": "stormphrax:block_phrax_oven", "y":180 }
+	    },
+	    {   "when": { "facing": "west" },
+	            "apply": { "model": "stormphrax:block_phrax_oven" }
+	    }
+    ]
 }
