@@ -1,19 +1,19 @@
 {
     "multipart": [
         {   "apply": { "model": "stormphrax:machine_base" }},
-        {   "when": { "has_connection_d": "true" },
+        {   "when": { "down": "true" },
             "apply": { "model": "stormphrax:wire_connector", "x":90 }
         },
-        {   "when": { "has_connection_e": "true" },
+        {   "when": { "east": "true" },
             "apply": { "model": "stormphrax:wire_connector", "y":90 }
         },
-        {   "when": { "has_connection_w": "true" },
+        {   "when": { "west": "true" },
             "apply": { "model": "stormphrax:wire_connector", "y":270 }
         },
-        {   "when": { "has_connection_n": "true" },
+        {   "when": { "north": "true" },
             "apply": { "model": "stormphrax:wire_connector" }
         },
-        {   "when": { "has_connection_s": "true" },
+        {   "when": { "south": "true" },
             "apply": { "model": "stormphrax:wire_connector", "y":180 }
         }
     ]

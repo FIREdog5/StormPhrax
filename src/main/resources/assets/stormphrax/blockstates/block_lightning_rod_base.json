@@ -1,16 +1,16 @@
 {
     "multipart": [
         {   "apply": { "model": "stormphrax:block_lightning_rod_base" }},
-        {   "when": { "has_connection_e": "true" },
+        {   "when": { "east": "true" },
             "apply": { "model": "stormphrax:lightning_rod_connector", "y":90 }
         },
-        {   "when": { "has_connection_w": "true" },
+        {   "when": { "west": "true" },
             "apply": { "model": "stormphrax:lightning_rod_connector", "y":270 }
         },
-        {   "when": { "has_connection_n": "true" },
+        {   "when": { "north": "true" },
             "apply": { "model": "stormphrax:lightning_rod_connector" }
         },
-        {   "when": { "has_connection_s": "true" },
+        {   "when": { "south": "true" },
             "apply": { "model": "stormphrax:lightning_rod_connector", "y":180 }
         },
         {   "when": { "top": "true" },

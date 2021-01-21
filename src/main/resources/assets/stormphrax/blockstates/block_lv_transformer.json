@@ -1,22 +1,27 @@
 {
     "multipart": [
-        {   "apply": { "model": "stormphrax:block_transformer" }},
-        {   "when": { "has_connection_u": "true" },
-            "apply": { "model": "stormphrax:wire_connector", "x":270 }
-        },
-        {   "when": { "has_connection_d": "true" },
-            "apply": { "model": "stormphrax:wire_connector", "x":90 }
-        },
-        {   "when": { "has_connection_e": "true" },
+        {   "when": { "facing": "north" },
+	            "apply": { "model": "stormphrax:block_transformer"}
+	    },
+	    {   "when": { "facing": "south" },
+	            "apply": { "model": "stormphrax:block_transformer", "y":180 }
+	    },
+	    {   "when": { "facing": "east" },
+	            "apply": { "model": "stormphrax:block_transformer", "y":90 }
+	    },
+	    {   "when": { "facing": "west" },
+	            "apply": { "model": "stormphrax:block_transformer", "y":270 }
+	    },
+        {   "when": { "east": "true" },
             "apply": { "model": "stormphrax:wire_connector", "y":90 }
         },
-        {   "when": { "has_connection_w": "true" },
+        {   "when": { "west": "true" },
             "apply": { "model": "stormphrax:wire_connector", "y":270 }
         },
-        {   "when": { "has_connection_n": "true" },
+        {   "when": { "north": "true" },
             "apply": { "model": "stormphrax:wire_connector" }
         },
-        {   "when": { "has_connection_s": "true" },
+        {   "when": { "south": "true" },
             "apply": { "model": "stormphrax:wire_connector", "y":180 }
         }
     ]

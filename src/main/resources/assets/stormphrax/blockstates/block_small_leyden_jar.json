@@ -1,0 +1,17 @@
+{
+    "multipart": [
+        {   "apply": { "model": "stormphrax:block_leyden_jar" }},
+        {   "when": { "east": "true" },
+            "apply": { "model": "stormphrax:leyden_jar_input", "y":90 }
+        },
+        {   "when": { "west": "true" },
+            "apply": { "model": "stormphrax:leyden_jar_output", "y":270 }
+        },
+        {   "when": { "north": "true" },
+            "apply": { "model": "stormphrax:leyden_jar_input" }
+        },
+        {   "when": { "south": "true" },
+            "apply": { "model": "stormphrax:leyden_jar_output", "y":180 }
+        }
+    ]
+}
